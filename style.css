@@ -1,0 +1,262 @@
+body{
+    margin: 0px 0px;    
+    padding: 0px;
+   }
+   .navbar{
+       display: flex;
+       align-items: center; 
+       justify-content: space-between;
+       padding: 10px 190px;
+       
+   }
+   .navmeni{
+       
+       text-transform: uppercase;
+       font-weight: bold;
+       padding: 10x 15px;
+       border-radius: 20px;
+   }
+   .navmeni .items{
+       display:inline;
+       margin: 20px;
+       font-size: 25px;
+       background-color: #143786;
+       border: 1px solid gold;
+       border-radius: 5px;
+      
+       
+   }
+   .navmeni .items a{
+       color: gold;
+       border-radius: 10px;
+       text-decoration: none;
+       font-size: 30px;
+   
+   }
+   
+   .navmeni .items a:hover {
+       background-color:gold;
+       color: #143786;
+       border-radius: 5px;
+       
+       ;
+   }
+   .pozadina{
+    background-image: url(slike/dark-royal.webp);
+    background-repeat:repeat;
+    background-size:auto;
+
+    height: 100vh;
+    margin: 10px auto;
+    padding: 10px;
+   }
+   .prvidiv{
+    text-align: center;
+    color: gold;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 30px;
+    
+   }
+   .prvidiv :hover{
+    text-align: center;
+    color: gold;
+    background-color:#143786;
+    display: inline;
+    padding: 20px 25px;
+    margin: 30px 40px;
+    font-size: 30px;
+    transition: 0.3s ease;
+    border-radius: 15px;;
+    }
+    .nalepnica{
+    align-items: center;
+    justify-content: center;
+    margin: 0px 43%;
+    }
+    .nalepnica img{
+        width: 200px;
+    }
+    .nalepnica{
+        animation: nalepnica .5s infinite alternate linear;
+        
+    }
+
+    @keyframes nalepnica{
+        from {
+            transform: scale(.9);
+        }
+        to{
+            transform: scale(1);
+        }
+
+    }
+    .Onama1 {
+       color: gold;
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       font-size: x-large;
+       margin-top: 20px;
+       font-weight: bold;
+        }
+        .Onama1 :hover{
+        background-color:#143786;  
+        transition: 0.3s ease;
+        }
+    .Onama2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        color: gold;
+        margin-right: 20px;
+        font-size: larger;
+    }
+    .Onama2 :hover{
+    background-color: gold;
+    color: #143786; 
+    transition: 0.3s ease;
+    border-radius: 15px;;
+    }
+    .proizvod1 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: gold;
+    }
+    .proizvod1 :hover{
+    background-color: gold;
+    color: #143786;
+    font-size: 40px;
+    transition: 0.3s ease;
+    border-radius: 15px;;
+
+    }
+    .vrste {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        margin: auto 30px;
+
+
+    }
+   .div1, .div2, .div3{
+    display: inline;
+    color: gold;
+    border-radius: 20px dotted gold;
+   }
+   .div3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    border: 3px solid gold;
+    
+}
+.div2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    border: 3px solid gold;
+   
+   
+
+}
+.div1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    border: 3px solid gold;
+    align-items: center;
+    justify-content: center;
+     }
+    .kontakt{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontakt{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontakt{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forma{
+    animation-name: contact; 
+    animation-duration: 2.5s ;
+    animation-iteration-count: 1;
+    width: 300px;
+}
+@keyframes contact {
+
+    0%{
+        opacity: 0%;
+    }
+    20%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+
+    }
+}
+
+.forma p{
+    color:gold
+;
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+input[type=name]{
+    border: 2px solid gold;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+input[type=email]{
+    border: 2px solid gold;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+input[type=submit]{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 25px;
+    display: block;
+    margin: 20px auto;
+    transition: 0.5s ease;
+}
+
+input[type=submit]:hover{
+    background-color:#143786;
+    color: gold;
+}
+input[type=text]{
+    border: 2px solid gold;
+    border-radius: 10px;
+    height: 100px;
+    font-size: 20px;
+    padding: 10px 20px;}
+    
